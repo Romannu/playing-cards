@@ -1,0 +1,45 @@
+.card-border {
+    width: 100px;
+    height: 140px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 8px;
+
+    background-color: beige;
+
+    margin: 50px;
+}
+
+.card-border:hover {
+    border-width: 2px;
+    border-left-width: 3px;
+    border-bottom-width: 3px;
+}
+
+.symbol-table {
+    width: 100%;
+    height: 100%;
+}
+
+.spades-symbol, .clubs-symbol {
+    color: black;
+    font-size: 70px;
+}
+
+.a-link {
+    text-decoration: none;
+}
+
+.a-link:visited {
+    color: black;
+}
+
+.hearts-symbol, .diamonds-symbol {
+    color: red;
+    font-size: 70px;
+}
+
+.inverted-number {
+    transform: scale(1, -1);
+}
