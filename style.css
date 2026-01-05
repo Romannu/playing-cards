@@ -22,9 +22,17 @@
     height: 100%;
 }
 
+.middle-row {
+    height: 50%;
+}
+
+.middle-column {
+    width: 50%;
+}
+
 .spades-symbol, .clubs-symbol {
     color: black;
-    font-size: 70px;
+    font-size: 65px;
 }
 
 .a-link {
@@ -37,7 +45,7 @@
 
 .hearts-symbol, .diamonds-symbol {
     color: red;
-    font-size: 70px;
+    font-size: 65px;
 }
 
 .inverted-number {
